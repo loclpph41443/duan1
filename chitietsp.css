@@ -1,0 +1,115 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.dieuhuong{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.59);
+}
+.dieuhuong .dh{
+    color: rgba(255, 0, 0, 0.691);
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 10px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.container .anhsanpham .nho{
+    
+    width: 150px;
+    margin-left: 10px;  
+}
+.danhgia span{
+    margin-left: 30px;
+}
+.container .chuongtrinh{
+    background-color: #fafafa;
+    width: 500px;
+    height: 70px;
+    position: relative;
+}
+.container .chuongtrinh .gia{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.container .chuongtrinh .gia .gianew{
+    font-size:x-large ;
+    color: red;
+    margin-left: 10px;
+}
+.container .chuongtrinh .sale{
+    margin-left: 20px;
+}
+.container .chuongtrinh img{
+    position: absolute;
+    top: 30px;
+}
+.container .chuongtrinh .sale .tg{
+    margin-left: 140px;
+    opacity: 0.7;
+}
+.container .thongtin{
+    position: relative;
+    float: right;
+    margin-right: 305px;
+
+
+}
+.container .thongtin span{
+margin-right: 40px;
+}
+.container .vanchuyen{
+    display: grid;
+    grid-template-columns: 0.17fr 1fr;
+    margin-top: 20px;
+}
+.container .vanchuyen .vc{
+    margin-left: 15px;
+}
+.container .phanloai{
+    margin-left: 15px;
+}
+.container .phanloai .mau{
+    padding-left: 40px;
+}
+.container .soluong{
+    margin-left: 15px;
+}
+.container .soluong .sl{
+    margin-left: 40px;
+    
+}
+.container .mua{
+    margin-top: 40px;
+    margin-left: 15px;
+
+}
+.container .mua .tvgh{
+    width: 250px;
+    height: 40px;
+    border: solid 1px chocolate;
+    background-color: #fbebed;
+    color: red;
+}
+.container .mua .mn{
+    margin-left: 20px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.885);
+    border: 1px solid red;
+
+}
+.line{
+    margin-top: 10px;
+    background-color: black;
+    width: 100%;
+    height: 1px;
+    margin-top: 50px;
+}
